@@ -186,3 +186,6 @@ bind pub - .helpquotes help_quotes
 	proc help_quotes {nick uhost hand chan text} {
 		putserv "PRIVMSG $chan :.addquote <quote>, .delquote <quote>, .quotes, .quote <id>, .findquote <author>"
 	}
+
+
+/* Credits: Kito / You may modify this script. You may not spread the modified script. */
