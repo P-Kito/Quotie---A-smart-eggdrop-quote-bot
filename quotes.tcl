@@ -11,7 +11,7 @@
  *	NAME YOUR BOT "Quotes"!				*
  * **************************************************** */
 
-######  Bot Commands ######
+#####  Bot Commands ######
 #
 #	.addquote QUOTE
 #	.quotes
