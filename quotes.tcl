@@ -86,7 +86,7 @@ bind pub - !rehash do_rehash
 	}
 	}
 
-#####MAIN SCRIPT
+
 bind msg - add quotes_add
 	proc quotes_add {nick uhost hand text} {
 		if {$nick == $admin} {
