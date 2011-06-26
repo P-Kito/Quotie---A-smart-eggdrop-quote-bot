@@ -111,7 +111,8 @@ proc join_it {nick uhost hand chan} {
 	if {[isbotnick $nick]} {
 		putquick "PRIVMSG $chan :SYNTAX: .addquote <quote>, .delquote <id>, .quote <id>, .quotes , .findquote <author>"
 		putquick "PRIVMSG $chan :Help on: .helpquotes"
-		putquick "MODE $chan +oe $botnick $botnick" /* This works if the bot gains ircoperator access */
+# Uncomment this if the bot has ircop priviledges
+#		putquick "MODE $chan +oe $botnick $botnick" /* This works if the bot gains ircoperator access */
 	}
 }
  
