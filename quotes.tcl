@@ -9,6 +9,7 @@
  *	allowed to remove the credits!			*
  * Other Advises:					*
  *	NAME YOUR BOT "Quotes"!				*
+ *	Install the package mysqltcl BEFORE		*
  * **************************************************** */
 
 #####  Bot Commands ######
